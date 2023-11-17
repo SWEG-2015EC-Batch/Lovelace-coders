@@ -25,8 +25,8 @@ bonus rate per hour and base salary and find the employees gross-salary, net sal
   Step 7: calculate gross salary = base salary + (bonus rate * working hours * 4)
   Step 8: calculate net salary = gross salary - gross salary(pension Rate) - gross salary(tax rate)
   Step 9: calculate bonus payment = bonus rate * working hours
-  Step 5: print employee name ,gross salary, net salary, bonus payment
-  Step 6: stop
+  Step 10: print employee name ,gross salary, net salary, bonus payment
+  Step 11: stop
 
  # Design the program
 
