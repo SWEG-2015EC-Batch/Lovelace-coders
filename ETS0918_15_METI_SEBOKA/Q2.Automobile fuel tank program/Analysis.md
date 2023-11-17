@@ -1,6 +1,10 @@
 # Problem Description:
 
-Write a C++ program that prompts the capacity in gallons of an automobile fuel tank and the miles per gallon the automobile can be driven. The program outputs the number of miles the automobile can be driven without refueling.
+Write a program that calculates and displays the number of miles an automobile can be driven without refueling. The program should prompt the user to enter the capacity in gallons of the automobile's fuel tank and the miles per gallon the automobile can be driven. It should then calculate the total number of miles the automobile can be driven without refueling using the formula:
+
+Total miles = capacity in gallons * miles per gallon
+
+The program should then display the calculated total miles.
 
 # Analysis
 
@@ -9,26 +13,26 @@ Output: The distance possible without refueling
 
 # Pseudo code
 
-  Step 1: start
+  Step 1:start
   
-  Step 2: read the capacity
+  Step 2:read the capacity
   
-  Step 3: read the miles per gallon
+  Step 3:read the miles per gallon
  
-  Step 4: compute the possible distance
+  Step 4:compute the possible distance
     Distance = capacity * miles per gallon
-  Step 5: print the Distance
+  Step 5:print the Distance
   
-  Step 6: stop
+  Step 6:stop
 
-#operation
+# operation
  
 - Prompt user for fuel tank capacity and miles per gallon
 - Read the values of capacity and miles per gallon
 - Calculate the number of miles the automobile can be driven without refueling using the formula: miles = capacity * miles per gallon
 - Display the calculated number of miles
 
-#. Design the program
+# Design the program
 
 1. Variable declaration and initialization (What and How?)
   double capacity, MPG, Pd;
