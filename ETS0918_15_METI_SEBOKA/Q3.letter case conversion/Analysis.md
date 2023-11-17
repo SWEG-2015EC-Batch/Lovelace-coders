@@ -1,13 +1,13 @@
- Problem Description:
+# Problem Description:
 
 Write a program that takes a letter as input from the user and converts it to its uppercase or lowercase equivalent using the functions defined in the ctype.h library header file. The program should prompt the user to enter a letter and then display the converted letter in the appropriate case.
 
- Analysis
+ # Analysis
 
 Input: a letter
 Output: uppercase or lowercase version of the letter
 
- operation
+# operation
 
 - Prompt user for a letter
 - Read the input letter
@@ -15,7 +15,7 @@ Output: uppercase or lowercase version of the letter
 - Display the converted letter
 
 
- Pseudo code
+# Pseudo code
   
   Step 1: start
   Step 2: read the letter
@@ -23,7 +23,7 @@ Output: uppercase or lowercase version of the letter
   Step 5: print the converted letter
   Step 6: stop
 
- Design the program
+# Design the program
 
 1 .Variable declaration and initialization (What and How?)
  char letter;
