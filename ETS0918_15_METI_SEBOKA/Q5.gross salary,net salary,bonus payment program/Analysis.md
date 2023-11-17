@@ -36,22 +36,36 @@ bonus rate per hour and base salary and find the employees gross-salary, net sal
 
 2. Reading input data (How)
   cout << "Please enter your full name: ";
-  getline (cin, empName);
-  cout << "Please enter the amout of hours you've worked: ";
-  cin >> workHr;
-  cout << "Please enter your base salary: ";
-  cin >> baseS;
-  cout << "Please enter your bonus rate per hour: ";
-  cin >> bonusRt;
 
-3. Perform operation - (How?)
-  grossS = baseS + (workHr * bonusRt * 4); //we multiply by 4 because the work hour is in weeks
-  netS = grossS - (grossS * pensionRate) - (grossS * taxRate);
-  bonusP = bonusRt * workHr * 4;
+getline (cin, empName);
+  
+  cout << "Please enter the amout of hours you've worked: ";
+  
+  cin >> workHr;
+ 
+  cout << "Please enter your base salary: ";
+  
+  cin >> baseS;
+  
+  cout << "Please enter your bonus rate per hour: ";
+  
+  cin >> bonusRt;
 
-4. Print results. (How?)
-  cout << "Dear " << empName << '\n';
-  cout << "Your gross salary for this month is: " << grossS << '\n';
-  cout << "Your net salary for this month is: " << netS << '\n';
-  cout << "Your bonus payment for the month is: " << bonu
+4. Perform operation - (How?)
+ 
+  grossS = baseS + (workHr * bonusRt * 4); //we multiply by 4 because the work hour is in weeks
+
+  netS = grossS - (grossS * pensionRate) - (grossS * taxRate);
+  
+  bonusP = bonusRt * workHr * 4;
+
+6. Print results. (How?)
+
+  cout << "Dear " << empName << '\n';
+
+  cout << "Your gross salary for this month is: " << grossS << '\n';
+ 
+  cout << "Your net salary for this month is: " << netS << '\n';
+ 
+  cout << "Your bonus payment for the month is: " << bonu
 
