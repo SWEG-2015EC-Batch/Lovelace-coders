@@ -2,8 +2,10 @@
 #include <iostream>
 
 using namespace std;
+int main()
+{
 
-double timeInSec, timeInMinute, timeInHr, sizeInByte;
+    double timeInSec, timeInMinute, timeInHr, sizeInByte;
 
     cout << "Input the file size in bytes: ";
     cin >> sizeInByte;
@@ -16,9 +18,5 @@ double timeInSec, timeInMinute, timeInHr, sizeInByte;
     cout << "Time needed in Minutes is: " << timeInMinute << '\n';
     cout << "Time needed in Hours is: " << timeInHr;
 
-int main()
-{
-
-
-    return 0;
+ return 0;
 }
