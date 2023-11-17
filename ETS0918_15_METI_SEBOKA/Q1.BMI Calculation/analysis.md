@@ -1,7 +1,7 @@
-#. Problem Description:
+#Problem Description:
 Write a C++ program to calculate the Body mass index of a user by accepting the user’s height and weight
 
-#. Analysis
+#Analysis
 Input: Height and Weight
 Output: The Body mass index
 
