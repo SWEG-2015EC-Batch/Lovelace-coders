@@ -15,14 +15,14 @@ Output: x raised to y (x^y)
 - Calculate the result of X^Y using the pow() function
 - Display the calculated result
 
-# Pseudo code
+## Pseudo code
   
- ## Step 1: start
- ## Step 2: read x
- ## Step 4: read y
- ## Step 5: calculate x^y
- ## Step 5: print the result
- ## Step 6: stop
+ ### Step 1: start
+ ### Step 2: read x
+ ### Step 4: read y
+ ### Step 5: calculate x^y
+ ### Step 5: print the result
+ ### Step 6: stop
 
 # Design the program
 
