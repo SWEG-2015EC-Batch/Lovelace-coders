@@ -12,6 +12,9 @@ Step 3: If letter is upper case
                         Else
           Print its upper case
 Step 4: stop
+3.3 flow chart
+![image](https://github.com/SWEG-2015EC-Batch/Lovelace-Coders/assets/149243635/35e121c3-9f4e-492c-9772-82d2a1c4abee)
+
 
 
 
