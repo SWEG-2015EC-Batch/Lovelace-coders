@@ -21,9 +21,9 @@ Output: x raised to y (x^y)
 
  ### Step 2: read x
 
- ### Step 4: read y
+ ### Step 3: read y
 
- ### Step 5: calculate x^y
+ ### Step 4: calculate x^y
  
  ### Step 5: print the result
 
@@ -43,7 +43,7 @@ Output: x raised to y (x^y)
 
  ### cout << "Please enter the power: ";
 
-###  in >> y;
+###  cin >> y;
 
 ## 3. Perform operation - (How?)
 
