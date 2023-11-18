@@ -16,13 +16,13 @@ Calculate the Body mass index as BMI = weight / height squared
 Display the user’s BMI
 
 # Pseudo code
-Step 1: start
-Step 2: read the weight
-Step 3: read the height
-Step 4: compute the BMI
-BMI = weight / height^2
-Step 5: print the BMI
-Step 6: stop
+###Step 1: start
+###Step 2: read the weight
+###Step 3: read the height
+##3Step 4: compute the BMI
+###BMI = weight / height^2
+###Step 5: print the BMI
+###Step 6: stop
 
 # Design the program
 1 .Variable declaration and initialization (What and How?)
