@@ -18,9 +18,13 @@ Output: uppercase or lowercase version of the letter
 ## Pseudo code
   
 ### Step 1: start
+
 ### Step 2: read the letter
+
 ### Step 3: convert the letter to its opposite case
+
 ### Step 5: print the converted letter
+
 ### Step 6: stop
 
 ## Design the program
@@ -34,7 +38,8 @@ Output: uppercase or lowercase version of the letter
 
 ## 3 .Perform operation - (How?)
   ### 1. Check if the letter is upper or lower case
- if (isupper(letter)){
+ 
+ ### if (isupper(letter)){
  
   ### letter = tolower(letter);
   }
