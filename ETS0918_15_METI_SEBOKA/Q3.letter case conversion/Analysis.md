@@ -52,4 +52,20 @@ Output: uppercase or lowercase version of the letter
 6. Print result (letter). (How?)
  cout << "Your letter in upper case is: " << letter
 
+# Flowchart
+
+
+
+
+
+
+
+
+
+
+
+
+![image](https://github.com/SWEG-2015EC-Batch/Lovelace-Coders/assets/149230080/a62bab4c-7216-4acb-8b6d-9c88a1cb62bb)
+
+
 
