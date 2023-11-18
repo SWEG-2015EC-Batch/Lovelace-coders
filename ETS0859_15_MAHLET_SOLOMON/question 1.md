@@ -10,5 +10,6 @@ step3: read miles per gallon
 step4: number of mile automobile driven without refueling= capacity in gallon of the automobile tank*miles per gallon.
 step5: print number of mile automobile driven without.
 step6: stop.
+![algorithm 1](https://github.com/SWEG-2015EC-Batch/Lovelace-Coders/assets/148606349/9fe30913-7c48-4d06-ba84-3830b2f3a5b6)
 
 
