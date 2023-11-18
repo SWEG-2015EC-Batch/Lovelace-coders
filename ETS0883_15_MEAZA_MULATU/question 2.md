@@ -1,17 +1,18 @@
-Problem analysis, pseudo code and flow chart for Q. 3
-3.1 problem analysis
-•	Input: Letter 
-•	Process: If a letter is upper case changed it to lower case 
-                           If a letter is lower case changed it to upper case.
-•	Output: Uppercase letters or lowercase letters 
-3.2Pseduo code
-Step 1: start 
-Step 2: enter a letter 
-Step 3: If letter is upper case 
-         Then print it is lower case.
-                        Else
-          Print its upper case
-Step 4: stop
+Problem anlyasis, psedocode and flowchat for Q.2
+2.1 probelm analysis
+Input: capacity in gallon of the automobile tank,miles per gallon.
+output: number of mile automobile driven without refueling.
+process: number of mile automobile driven without refueling=capacity in gallon of the automobile tank*miles per gallon.
+2.2 psudeocode
+step1: start
+step2: read the capacity in gallon of the automobile tank,
+step3: read miles per gallon
+step4: number of mile automobile driven without refueling= capacity in gallon of the automobile tank*miles per gallon.
+step5: print number of mile automobile driven without.
+step6: stop.
+2.3 flow chart
+![image](https://github.com/SWEG-2015EC-Batch/Lovelace-Coders/assets/149243635/3cfa91be-ef63-4748-8814-2e557ce8d88c)
+
 
 
 
