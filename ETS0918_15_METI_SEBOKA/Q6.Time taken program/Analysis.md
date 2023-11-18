@@ -39,3 +39,18 @@ Output: The time it takes to send the file
   cout << "Time needed in seconds is: " << timeInSec << '\n';
   cout << "Time needed in Minutes is: " << timeInMinute << '\n';
 
+
+
+# Flowchart
+
+
+
+
+
+
+
+
+
+![image](https://github.com/SWEG-2015EC-Batch/Lovelace-Coders/assets/149230080/2054bc46-f58e-4a23-88af-c1406295fd42)
+
+
