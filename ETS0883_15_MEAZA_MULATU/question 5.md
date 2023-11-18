@@ -17,7 +17,10 @@ Step 3:gross_salary = salary + (Working Hours * bonus);
  Net salary = gross salary - pension deduction - tax deduction;
  Bonus payment = Working Hours * bonus;
 Step 4 : Print gross salary ,net salary, bonus payment
-Step 5: end.   
+Step 5: end. 
+5.3 flow chart
+![image](https://github.com/SWEG-2015EC-Batch/Lovelace-Coders/assets/149243635/34cefa6f-9e24-478d-b0c3-d639127a5a69)
+
 
 
 
