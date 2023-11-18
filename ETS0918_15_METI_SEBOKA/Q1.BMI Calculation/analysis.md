@@ -35,6 +35,14 @@ cin >> height;
 BMI = mass/ (height * height);
 4. Print result (BMI). (How?)
 cout << “Your Body mass index is ” << BMI;
+
+# Flowchart
+
+
+
+
+
+
 ![image](https://github.com/SWEG-2015EC-Batch/Lovelace-Coders/assets/149230080/868895bc-5c30-4f69-92a1-2d624c28def5)
 
 
