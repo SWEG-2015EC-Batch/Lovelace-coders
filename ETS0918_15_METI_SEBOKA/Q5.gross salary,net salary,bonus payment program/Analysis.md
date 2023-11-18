@@ -69,3 +69,30 @@ getline (cin, empName);
  
   cout << "Your bonus payment for the month is: " << bonu
 
+
+
+  # Flowchart
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+![image](https://github.com/SWEG-2015EC-Batch/Lovelace-Coders/assets/149230080/6d0a390e-eeda-4f67-bf3a-5e3167e763cd)
+
+
+
+
+  
+
