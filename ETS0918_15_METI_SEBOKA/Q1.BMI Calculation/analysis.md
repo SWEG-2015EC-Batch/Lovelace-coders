@@ -44,9 +44,8 @@ cout << “Your Body mass index is ” << BMI;
 
 
 
+![image](https://github.com/SWEG-2015EC-Batch/Lovelace-Coders/assets/149230080/42cd9289-cbcd-4bf2-8dfb-7ab33408356a)
 
-
-![image](https://github.com/SWEG-2015EC-Batch/Lovelace-Coders/assets/149230080/868895bc-5c30-4f69-92a1-2d624c28def5)
 
 
 
