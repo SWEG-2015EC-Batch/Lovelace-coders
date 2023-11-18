@@ -1,11 +1,14 @@
-#Problem Description:
-Write a C++ program to calculate the Body mass index of a user by accepting the user’s height and weight
+# Problem Description:
+Write a program that calculates and displays the Body Mass Index (BMI) of a person. The program should prompt the user to enter their height in meters and their weight in kilograms. It should then calculate the BMI using the formula:
 
-#Analysis
+BMI = weight / (height * height)
+
+
+# Analysis
 Input: Height and Weight
-Output: The Body mass index
+Output: The Body mass index(BMI)
 
-#operation
+# operation
 Variable declaration: height and weight
 Prompt the user to enter their weight and height respectively
 Accept the user input.
