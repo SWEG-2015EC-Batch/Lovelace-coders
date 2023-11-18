@@ -12,6 +12,7 @@ Step 3: If letter is upper case
                         Else
           Print its upper case
 Step 4: stop
+![algorithm 2](https://github.com/SWEG-2015EC-Batch/Lovelace-Coders/assets/148606349/24b5064e-da59-4880-98e0-1d7f8e8796c3)
 
 
 
