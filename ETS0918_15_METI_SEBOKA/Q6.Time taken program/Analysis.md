@@ -13,39 +13,39 @@ Output: The time it takes to send the file
 2. Calculate the time taken to send the file using the formula: time_taken = file_size / 960.
 3. Display the time taken to send the file.
 
-# Pseudo code
-  Step 1: start
-  Step 2: read the file size
-  Step 3: compute the time it takes in seconds
+## Pseudo code
+  ### Step 1: start
+  ### Step 2: read the file size
+  ### Step 3: compute the time it takes in seconds
     timeInSec = sizeInByte / 960
-  Step 5: print the time in seconds
-  Step 6: stop
+  ### Step 5: print the time in seconds
+ ### Step 6: stop
 
-# Design the program
+## Design the program
 
-1. Variable declaration and initialization (What and How?)
+## 1. Variable declaration and initialization (What and How?)
 
-double timeInSec, timeInMinute, timeInHr, sizeInByte;
+### double timeInSec, timeInMinute, timeInHr, sizeInByte;
 
-3. Reading input data (How?)
+## 2. Reading input data (How?)
 
-cout << "Input the file size in bytes: ";
+### cout << "Input the file size in bytes: ";
  
-  cin >> sizeInByte;
+ ### cin >> sizeInByte;
 
-5. Perform operation - (How?)
+## 3. Perform operation - (How?)
  
- timeInSec = sizeInByte / 960; //960 characters = 960 bytes
+### timeInSec = sizeInByte / 960; //960 characters = 960 bytes
 
-timeInMinute = timeInSec / 60;
+### timeInMinute = timeInSec / 60;
  
- timeInHr = timeInMinute / 60;
+### timeInHr = timeInMinute / 60;
 
-4. Print result (time). (How?)
+## 4. Print result (time). (How?)
  
-  cout << "Time needed in seconds is: " << timeInSec << '\n';
+ ### cout << "Time needed in seconds is: " << timeInSec << '\n';
  
-  cout << "Time needed in Minutes is: " << timeInMinute << '\n';
+  ### cout << "Time needed in Minutes is: " << timeInMinute << '\n';
 
 
 
