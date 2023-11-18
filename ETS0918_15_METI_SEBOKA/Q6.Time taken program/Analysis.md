@@ -22,6 +22,7 @@ Output: The time it takes to send the file
   ### Step 3: compute the time it takes in seconds
     timeInSec = sizeInByte / 960
 
+
  ### Step 5: print the time in seconds
 
  ### Step 6: stop
