@@ -9,6 +9,8 @@ step 2: read the file size
 step 3: time taken = file size /960
 step 4: print time taken
 step 5: stop 
+![algorithm 6](https://github.com/SWEG-2015EC-Batch/Lovelace-Coders/assets/148606349/0af1afcb-f9d8-4a31-8e02-8d0e6dbfab42)
+
 
 
 
