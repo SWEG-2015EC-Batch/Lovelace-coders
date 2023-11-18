@@ -21,7 +21,8 @@ Output: The distance possible without refueling
  
   ### Step 4:compute the possible distance
     Distance = capacity * miles per gallon
-  ### Step 5:print the Distance
+  
+  ### Step 5:print the Distance
   
   ### Step 6:stop
 
