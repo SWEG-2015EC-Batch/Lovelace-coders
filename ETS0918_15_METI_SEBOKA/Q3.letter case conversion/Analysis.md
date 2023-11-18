@@ -36,7 +36,7 @@ Output: uppercase or lowercase version of the letter
   ### 1. Check if the letter is upper or lower case
  if (isupper(letter)){
  
-  ###letter = tolower(letter);
+  ### letter = tolower(letter);
   }
 
 ## 4 .Check if the letter is capital
@@ -45,7 +45,7 @@ Output: uppercase or lowercase version of the letter
  
  ### letter = toupper(letter);
   
-  ###cout << "Your letter in upper case is: " << letter ;
+  ### cout << "Your letter in upper case is: " << letter ;
   }
 
 ## 5 . If not both print an error message
