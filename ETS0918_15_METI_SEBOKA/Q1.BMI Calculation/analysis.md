@@ -24,19 +24,20 @@ Display the user’s BMI
 ### Step 5: print the BMI
 ### Step 6: stop
 
-# Design the program
-1 .Variable declaration and initialization (What and How?)
+## Design the program
+###1.Variable declaration and initialization (What and How?)
 double height, weight;
 
-2. Reading input data (How?)
+###2. Reading input data (How?)
 cout << "Please enter your mass in kilograms: ";
 cin >> mass;
 cout << "Please enter your height in meters: ";
 cin >> height;
 
-3. Perform operation - compute the BMI (How?)
+###3. Perform operation - compute the BMI (How?)
 BMI = mass/ (height * height);
-4. Print result (BMI). (How?)
+
+###4. Print result (BMI). (How?)
 cout << “Your Body mass index is ” << BMI;
 
 # Flowchart
