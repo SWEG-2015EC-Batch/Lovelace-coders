@@ -42,4 +42,16 @@ Output: x raised to y (x^y)
 4. Print result (X^y). (How?)
   cout << x << " the power of " << y << " is " << z;
 
+# Flowchart
+
+
+
+
+
+
+
+![image](https://github.com/SWEG-2015EC-Batch/Lovelace-Coders/assets/149230080/00ff3dee-879b-4989-bd27-3f5ad9252325)
+
+
+
 
