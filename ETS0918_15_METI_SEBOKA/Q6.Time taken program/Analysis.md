@@ -14,12 +14,17 @@ Output: The time it takes to send the file
 3. Display the time taken to send the file.
 
 ## Pseudo code
-  ### Step 1: start
-  ### Step 2: read the file size
-  ### Step 3: compute the time it takes in seconds
+ 
+  ### Step 1: start
+  
+  ### Step 2: read the file size
+  
+  ### Step 3: compute the time it takes in seconds
     timeInSec = sizeInByte / 960
-  ### Step 5: print the time in seconds
- ### Step 6: stop
+
+ ### Step 5: print the time in seconds
+
+ ### Step 6: stop
 
 ## Design the program
 
