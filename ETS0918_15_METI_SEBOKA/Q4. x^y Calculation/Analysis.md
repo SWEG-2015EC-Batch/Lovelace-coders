@@ -18,29 +18,40 @@ Output: x raised to y (x^y)
 ## Pseudo code
   
  ### Step 1: start
- ### Step 2: read x
- ### Step 4: read y
+
+ ### Step 2: read x
+
+ ### Step 4: read y
+
  ### Step 5: calculate x^y
+ 
  ### Step 5: print the result
+
  ### Step 6: stop
 
 # Design the program
 
-1. Variable declaration and initialization (What and How?)
- int x, y, z;
+## 1. Variable declaration and initialization (What and How?)
 
-2. Reading input data (How?)
+### int x, y, z;
+
+## 2. Reading input data (How?)
  
- cout << "Please enter the number to be powered: ";
-  cin >> x;
- cout << "Please enter the power: ";
-  cin >> y;
+ ### cout << "Please enter the number to be powered: ";
 
-3. Perform operation - (How?)
-  z= pow(x, y);
+ ### cin >> x;
 
-4. Print result (X^y). (How?)
-  cout << x << " the power of " << y << " is " << z;
+ ### cout << "Please enter the power: ";
+
+###  in >> y;
+
+## 3. Perform operation - (How?)
+
+### z= pow(x, y);
+
+## 4. Print result (X^y). (How?)
+ 
+ ### cout << x << " the power of " << y << " is " << z;
 
 # Flowchart
 
