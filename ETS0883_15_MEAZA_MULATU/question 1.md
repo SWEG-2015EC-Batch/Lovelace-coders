@@ -1,14 +1,16 @@
-Problem analysis , psedocode and flowchart for Q.2
-2.1 probelm analysis
-•	Input: capacity in gallon of the automobile tank ,miles per gallon.
-•	output: number of mile automobile driven without refueling.
-•	process: number of mile automobile driven without refueling=capacity in gallon of the automobile tank*miles per gallon.
-2.2 psudeocode
-step1: start
-step2: read the capacity in gallon of the automobile tank,
-step3: read miles per gallon
-step4: number of mile automobile driven without refueling= capacity in gallon of the automobile tank*miles per gallon.
-step5: print number of mile automobile driven without.
-step6: stop.
+Problem analysis,Psedocodeand flow chart for Q.1                  
+ 1.1 problem analysis
+Input:  weight and height
+Procces: BMI=weight/height*height
+Output: Print BMI
+1.2 Pseduo code
+Step 1: read the height
+Step 2: read the weight
+Step 3: BMI=weight/height*height
+Step 4: print "BMI"
+Step 6: stop
+flow chart
+![image](https://github.com/SWEG-2015EC-Batch/Lovelace-Coders/assets/149243635/4b14786d-9d65-4ff8-bb3b-a21deb3d36dd)
+
 
 
