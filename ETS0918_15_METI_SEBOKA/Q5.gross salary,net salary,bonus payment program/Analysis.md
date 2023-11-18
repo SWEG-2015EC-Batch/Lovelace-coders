@@ -52,7 +52,7 @@ bonus rate per hour and base salary and find the employees gross-salary, net sal
   
   cin >> bonusRt;
 
-4. Perform operation - (How?)
+3. Perform operation - (How?)
  
   grossS = baseS + (workHr * bonusRt * 4); //we multiply by 4 because the work hour is in weeks
 
@@ -60,7 +60,7 @@ bonus rate per hour and base salary and find the employees gross-salary, net sal
   
   bonusP = bonusRt * workHr * 4;
 
-5. Print results. (How?)
+4. Print results. (How?)
 
   cout << "Dear " << empName << '\n';
 
