@@ -24,20 +24,28 @@ Output: The time it takes to send the file
 # Design the program
 
 1. Variable declaration and initialization (What and How?)
-  double timeInSec, timeInMinute, timeInHr, sizeInByte;
 
-2. Reading input data (How?)
-  cout << "Input the file size in bytes: ";
-  cin >> sizeInByte;
+double timeInSec, timeInMinute, timeInHr, sizeInByte;
 
-3. Perform operation - (How?)
-  timeInSec = sizeInByte / 960; //960 characters = 960 bytes
-  timeInMinute = timeInSec / 60;
-  timeInHr = timeInMinute / 60;
+3. Reading input data (How?)
+
+cout << "Input the file size in bytes: ";
+ 
+  cin >> sizeInByte;
+
+5. Perform operation - (How?)
+ 
+ timeInSec = sizeInByte / 960; //960 characters = 960 bytes
+
+timeInMinute = timeInSec / 60;
+ 
+ timeInHr = timeInMinute / 60;
 
 4. Print result (time). (How?)
-  cout << "Time needed in seconds is: " << timeInSec << '\n';
-  cout << "Time needed in Minutes is: " << timeInMinute << '\n';
+ 
+  cout << "Time needed in seconds is: " << timeInSec << '\n';
+ 
+  cout << "Time needed in Minutes is: " << timeInMinute << '\n';
 
 
 
