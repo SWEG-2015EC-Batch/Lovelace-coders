@@ -35,9 +35,10 @@ bonus rate per hour and base salary and find the employees gross-salary, net sal
   double netS, pensionRate(0.05), taxRate(0.15);
 
 2. Reading input data (How)
-  cout << "Please enter your full name: ";
 
-getline (cin, empName);
+  cout << "Please enter your full name: ";
+
+  getline (cin, empName);
   
   cout << "Please enter the amout of hours you've worked: ";
   
@@ -59,7 +60,7 @@ getline (cin, empName);
   
   bonusP = bonusRt * workHr * 4;
 
-6. Print results. (How?)
+5. Print results. (How?)
 
   cout << "Dear " << empName << '\n';
 
