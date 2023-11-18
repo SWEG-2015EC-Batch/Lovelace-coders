@@ -3,7 +3,7 @@
 using namespace std;
 int main(){   
   double weight, height, BMI;
-     cout << " enter weight in kilograms: ";
+    cout << " enter weight in kilograms: ";
     cin >> weight;
     cout << " enter your height in meters: ";
     cin >> height;
