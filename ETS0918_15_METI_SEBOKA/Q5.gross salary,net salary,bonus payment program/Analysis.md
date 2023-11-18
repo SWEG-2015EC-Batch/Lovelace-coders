@@ -17,7 +17,8 @@ bonus rate per hour and base salary and find the employees gross-salary, net sal
 
 
 ## Pseudo code
-  ### Step 1: start
+ 
+  ### Step 1: start
   
   ### Step 2: read employee name
   
@@ -42,7 +43,8 @@ bonus rate per hour and base salary and find the employees gross-salary, net sal
 ## 1. Variable declaration and initialization (What and How?)
   
   ### int workHr, baseS, bonusRt, grossS, bonusP;
- ### double netS, pensionRate(0.05), taxRate(0.15);
+ 
+ ### double netS, pensionRate(0.05), taxRate(0.15);
 
 ## 2. Reading input data (How)
 
