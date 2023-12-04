@@ -27,6 +27,8 @@ int main()
         break;
 
     case'/':
+       if(num2==0)
+          cout<<"syntax error"<<endl;
         cout<<"the quotient of the two numbers is: "<<num1/num2<<endl;
         break;
     default:
