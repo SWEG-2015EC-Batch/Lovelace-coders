@@ -28,10 +28,10 @@ int  main() {
       cout << "the product of this two numbers is:" << num1 * num2 << endl;
       break;
     case'/':
-      cout << "the division of this two number is:" << num1 / num2 << endl;
+      if(num2==0)
+        cout <<"error";
+    cout << "the division of this two number is:" << num1 / num2 << endl;
       break;
-
-
     default:
       break;
     }
@@ -39,7 +39,6 @@ int  main() {
     cin >> exit;
     if (exit == 0)
       cout << "exit" << endl;
-
   } while (exit != 0);
   return 0;
 }
