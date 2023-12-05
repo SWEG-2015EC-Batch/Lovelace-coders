@@ -29,6 +29,8 @@ int  main() {
       break;
     case'/':
       cout << "the division of this two number is:" << num1 / num2 << endl;
+      if(num2==0)
+       cout<<"error"<<endl;
       break;
 
 
