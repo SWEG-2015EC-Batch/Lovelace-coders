@@ -1,0 +1,30 @@
+//this is a code for identifying entered characters from the user
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    char ch;//ch stands for character
+    cout<< "enter any character: "<<endl;
+    cin>>ch;
+    if(ch>='A'&&ch<='Z')
+        if (ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U')
+    cout<<" The character is vowel upper case letter"<<endl;
+    else cout<<"The character is consonant upper case letter"<<endl;
+    else if(ch>='a'&&ch<='z')
+        if (ch=='a'||ch=='i'||ch=='o'||ch=='u'||ch=='e')
+    cout<<" The character is vowel lower case letter"<<endl;
+    else cout<<"The character is consonant lower case letter"<<endl;
+    else if(ch>='0'&&ch<='9'&&ch%2==0)
+    cout<<" The character is even number"<<endl;
+    else if(ch>='0'&&ch<='9'&&ch%2!=0)
+    cout<<" The character is odd number"<<endl;
+    else
+        cout<<"The character is special character"<<endl;
+
+
+
+
+    return 0;
+}
