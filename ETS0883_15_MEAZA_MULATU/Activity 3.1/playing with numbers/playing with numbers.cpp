@@ -111,21 +111,18 @@ int main()
         else {
         cout << n << " is not an Armstrong number." << endl;}}
     else if(menu=='J'){
-        int factorial;
-        if (n == 0 || n == 1) {
-         return 1;}
-        else {
-         return n * factorial(n - 1);}
-        int  originalNumber, digit, sum = 0;
-        originalNumber = n;
-        while (originalNumber > 0) {
-        digit = originalNumber % 10;
-        sum += factorial(digit);
-        originalNumber /= 10;}
-        if (sum == n) {
-        cout << n << " is a strong number." << endl;}
-         else {
-        cout << n << " is not a strong number." << endl;}}
+        int sum=0,digit,onum;
+         while(num!=0){
+       digit=num%10;
+       int factorial=1;
+       for(int i=1;i<=digit;++i){
+        factorial*=i;}
+       sum+=factorial;
+       num/=10;}
+       if(sum==onum){
+        cout<<"strong number"<<endl;}
+        else{
+        cout<<"not strong number"<<endl;}
     else if(menu=='K'){
         int sum = 0;
         for (int i = 1; i <= n / 2; i++) {
