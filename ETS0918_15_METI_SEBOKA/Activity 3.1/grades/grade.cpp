@@ -1,34 +1,57 @@
 #include <iostream>
+
 using namespace std;
 
-int main(void)
-{
-    int num_grade, test, quiz, project, assignment, final_exam;
-    string char_grade;
+int main(){
 
-    cout<<"Enter your score of test(15%), quiz(5%), project(20%), assignment(10%), final exam(50%): ";
-    cin>>test>>quiz>>project>>assignment>>final_exam;
+    folat grade;
 
-    num_grade = test + quiz + project + assignment + final_exam;
+    cout << "What is your score?: ";
+    cin >> grade;
 
-    if (num_grade >= 90)
-        char_grade = "A+";
-    else if (num_grade >= 80)
-        char_grade = "A";
-    else if (num_grade >= 75)
-        char_grade = "B+";
-    else if (num_grade >= 60)
-        char_grade = "B";
-    else if (num_grade >= 55)
-        char_grade = "C+";
-    else if (num_grade >= 45)
-        char_grade = "C";
-    else if (num_grade >= 30)
-        char_grade = "D";
-    else
-        char_grade = "F";
+    if (grade < 30)
+    {
+        cout << "You got an F.";
+    }
+    else if (grade >= 30 && grade < 45)
+    {
+        cout << "You got a D.";
+    }
+    else if (grade >= 45 && grade < 55)
+    {
+        cout << "You got a C.";
+    }
+    else if (grade >= 55 && grade < 60)
+    {
+        cout << "You got a C+.";
+    }
+    else if (grade >= 60 && grade < 75)
+    {
+        cout << "You got a B.";
+    }
+    else if (grade >= 75 && grade < 80)
+    {
+        cout << "You got a B+.";
+    }
+    else if (grade >= 80 && grade < 90)
+    {
+        cout << "You got an A.";
+    }
+    else if (grade >= 90 && grade <= 100)
+    {
+        cout << "You got a A+.";
+    }
+    else if(grade > 100){
+        cout << "Your grade is above the limit 100";
+    }
+    else if(grade < 30){
+        cout << "YOU ARE A FAILURE!";
+    }
+    else {
+        cout << "Invalid input!";
+    }
 
-    cout<<"You got a/an "<<char_grade<<endl;
+    return 0;
 
-    return (0);
 }
+   
