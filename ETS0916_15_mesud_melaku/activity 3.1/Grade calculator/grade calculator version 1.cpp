@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
 
-    folat grade;
+    float grade;
 
     cout << "What is your score?: ";
     cin >> grade;
