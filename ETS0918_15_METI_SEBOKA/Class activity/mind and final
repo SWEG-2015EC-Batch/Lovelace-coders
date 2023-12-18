@@ -1,0 +1,55 @@
+#include <iostream>
+#include <vector>
+
+struct Student {
+    int midExam;
+    int finalExam;
+    char grade;
+};
+
+char calculateGrade(int midExam, int finalExam) {
+    int total = midExam + finalExam;
+    if (total >= 90) return 'A';
+    else if (total >= 80) return 'B';
+    else if (total >= 70) return 'C';
+    else if (total >= 60) return 'D';
+    else return 'F';
+}
+
+int main() {
+    std::vector<Student> students(20);
+    char continueProgram = 'Y';
+
+    while (continueProgram == 'Y' || continueProgram == 'y') {
+        for (int i = 0; i < 20; ++i) {
+            int attempts = 0;
+            while (attempts < 3) {
+                std::cout << "Enter mid exam result for student " << i+1 << ": ";
+                std::cin >> students[i].midExam;
+                std::cout << "Enter final exam result for student " << i+1 << ": ";
+                std::cin >> students[i].finalExam;
+
+                if ((students[i].midExam >= 0 && students[i].midExam <= 40) && (students[i].finalExam >= 0 && students[i].finalExam <= 60)) {
+                    students[i].grade = calculateGrade(students[i].midExam, students[i].finalExam);
+                    std::cout << "Student " << i+1 << " grade: " << students[i].grade << "\n";
+                    break;
+                } else {
+                    std::cout << "Please enter the mark in the specified range.\n";
+                    ++attempts;
+                }
+            }
+
+            if (attempts == 3) {
+                std::cout << "You have exceeded the maximum number of attempts. The program will now exit.\n";
+                return 0;
+            }
+        }
+
+        std::cout << "Do you want to continue? (Y/N): ";
+        std::cin >> continueProgram;
+    }
+
+    return 0;
+}
+
+    
