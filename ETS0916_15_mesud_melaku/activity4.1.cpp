@@ -4,30 +4,34 @@
 using namespace std;
 
 int main() {
-    int num;
     double sum = 0.0;
     double sumSquared = 0.0;
+    double number;
+
+    cout << "Enter the numbers (enter any non-numeric value to stop):\n";
+
     int count1 = 0;
+    while (cin >> number) {
+        count1++;
+        sum += number;
+        sumSquared += number * number;
 
-    cout << "Enter the number of elements: ";
-    cin >> count1;
-
-    cout << "Enter " << count1 << " numbers:\n";
-
-    for (int i = 0; i < count1; i++) {
-        cin >> num;
-        sum += num;
-        sumSquared += num * num;
+        cout << "Element " << count1 << ": " << number << "\n";
     }
 
-    cout << "Input numbers: ";
-    for (int i = 0; i < count1; i++) {
-        cout << num << ",";
+    if (count1 == 0) {
+        cout << "No numbers were entered.\n";
+        return 0;
     }
-    cout << endl;
 
-    cout << "Mean: " << sum / count1 << endl;
-    cout << "Standard Deviation: " << sqrt((sumSquared - (sum * sum) / count1) / count1) << endl;
+    double mean = sum / count1;
+    double variance = (sumSquared / count1) - (mean * mean);
+    double standardDeviation = sqrt(variance);
+
+    cout << "\n";
+    cout << "Total Number of Input numbers: " << count1 << "\n";
+    cout << "Mean: " << mean << "\n";
+    cout << "Standard Deviation: " << standardDeviation << "\n";
 
     return 0;
 }
