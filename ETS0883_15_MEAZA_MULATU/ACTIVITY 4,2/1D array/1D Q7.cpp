@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   int numbers[5];
+   int m=1;
+   for(int i=0;i<5;i++){
+    cout<<"Enter number "<<m++<<endl;
+    cin>>numbers[i];}
+    cout<<"Even numbers in reverse order are ";
+   for(int i=5;i>0;i--){
+    if(numbers[i]%2==0){
+    cout<<numbers[i]<<" ";}
+   }
+    return 0;
+}
