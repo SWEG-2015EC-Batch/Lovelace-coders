@@ -1,8 +1,15 @@
-for ( int j=5; j>=1;j--){
-for( int i=1; i<=j; i++)
-{
+#include <iostream>
 
-cout<<"*";
+using namespace std;
 
+int main(){
+
+   
+
+    int array1[4][5] = {16, 22, 99, 4, 18, -258, 4, 101, 5, 98, 105, 6, 15, 2, 45, 33, 88, 72, 16, 3};
+
+    
+
+    return 0;
+    
 }
-cout<<endl;
