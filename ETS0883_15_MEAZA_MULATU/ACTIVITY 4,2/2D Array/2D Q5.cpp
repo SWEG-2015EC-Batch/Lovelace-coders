@@ -1,36 +1,34 @@
-
 #include <iostream>
-#include <vector>
-
-int countFriendPairs(const std::vector<std::vector<int>>& friendships) {
-    int count = 0;
-    for (size_t i = 0; i < friendships.size(); ++i) {
-        for (size_t j = i + 1; j < friendships[i].size(); ++j) {
-            if (friendships[i][j] == 1) {
-                for (size_t k = j + 1; k < friendships[i].size(); ++k) {
-                    if (friendships[i][k] == 1 && friendships[j][k] == 1) {
-                        count++;
-                    }
-                }
+using namespace std;
+int main()
+{
+    char friend_arr[5][5];
+    int stars = 0, friends;
+    for (int i = 0; i < 5; i++)
+    {
+        for (int j = 0; j < 5; j++)
+        {
+            if ((i == 0 && j == 1) || (i == 1 && j == 0) || (i == 0 && j == 3) || (i == 3 && j == 0) || (i == 0 && j == 4) || (i == 4 && j == 0) || (i == 1 && j == 2) || (i == 2 && j == 1) || (i == 1 && j == 4) || (i == 4 && j == 1) || (i == 3 && j == 4) || (i == 4 && j == 3))
+            {
+                friend_arr[i][j] = '*';
+                stars++;
+            }
+            else
+            {
+                friend_arr[i][j] = ' ';
             }
         }
     }
-    return count;
-}
-
-int main() {
-    std::vector<std::vector<int>> friendships = {
-        {0, 1, 1, 0, 1},
-        {1, 0, 1, 1, 0},
-        {1, 1, 0, 0, 0},
-        {0, 1, 0, 0, 0},
-        {1, 0, 1, 0, 0}
-    };
-
-    int numFriendPairs = countFriendPairs(friendships);
-    std::cout << "Number of friend pairs: " << numFriendPairs << std::endl;
+    friends = stars / 2;
+    cout << "the number of paired friends is " << friends << endl;
+    for (int i = 0; i < 5; i++)
+    {
+        for (int j = 0; j < 5; j++)
+        {
+            cout << friend_arr[i][j] << "  ";
+        }
+        cout << endl;
+    }
 
     return 0;
 }
-
-
