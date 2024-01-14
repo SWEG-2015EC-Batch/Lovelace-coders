@@ -4,9 +4,9 @@
 using namespace std;
 
 int main() {
-    char favPrograms[2][50] = {"Breaking Bad"}; 
+    char favPrograms[2][50] = {" Prison break"}; 
 
-    strcpy(favPrograms[1], "Lucifer");
+    strcpy(favPrograms[1], " Money hiest");
 
     cout << "My favorite programs are:\n";
     cout << "1. " << favPrograms[0] << '\n';
