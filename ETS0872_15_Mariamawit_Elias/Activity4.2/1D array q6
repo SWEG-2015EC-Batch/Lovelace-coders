@@ -1,1 +1,28 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
 
+int main(void)
+{
+    int score;
+    string level;
+
+    cout<<"Input total score: ";
+    cin>>score;
+
+    if (score >= 80)
+        level = "Excellent";
+    else if (score >= 60)
+        level = "Very Good";
+    else if (score >= 50)
+        level = "Fair";
+    else if (score >= 40)
+        level = "Poor";
+    else
+        level = "Fail";
+
+    cout<<setw(15)<<left<<"Total score"<<" | "<<"Score Level"<<endl;
+    cout<<setw(15)<<left<<score<<" | "<<level<<endl;
+
+    return (0);
+}
