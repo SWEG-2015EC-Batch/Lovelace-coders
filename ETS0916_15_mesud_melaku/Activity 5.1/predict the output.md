@@ -52,6 +52,8 @@ line   i   j   ptr   pptr
 10     7    9  &i    &ptr
 
 11    -2    9  &i    &ptr
+
+
  output 5 address of i 10 address of j 10 address of j after Increments 11 address of j after 
  Increments 11 address of j after Increments 12 address of j 12 address of j
 
