@@ -55,8 +55,8 @@ line   i   j   ptr   pptr
  output 5 address of i 10 address of j 10 address of j after Increments 11 address of j after 
  Increments 11 address of j after Increments 12 address of j 12 address of j
 
- outpput  a[0] : 6 a[1] : 5 a[2] : 7 a[3] : 9.8 a[4] : intialized number
+output #6 a[0] = 6 a[1] = 5 a[2] = 6 a[3] = 7 a[4] = 9.8
 
- output 10 11 24 13 14 20 21 22 30 24 30 31 32 33 42
+output #7 a[0] = 6 a[1] = 5 a[2] = 6 a[3] = 7 a[4] = 9.8
 
   
