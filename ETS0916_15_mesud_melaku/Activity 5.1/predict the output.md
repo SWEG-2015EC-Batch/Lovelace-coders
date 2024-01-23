@@ -59,4 +59,30 @@ output #6 a[0] = 6 a[1] = 5 a[2] = 6 a[3] = 7 a[4] = 9.8
 
 output #7 a[0] = 6 a[1] = 5 a[2] = 6 a[3] = 7 a[4] = 9.8
 
-  
+ouput #8
+
+float marks[3][5] = {
+    {10, 11, 12, 13, 14},
+    {20, 21, 22, 23, 24},
+    {30, 31, 32, 33, 34}
+};
+
+float *ptr = marks[0];
+ptr += 2;
+*ptr *= 2;
+ptr = *(marks + 1) + 3;
+*ptr += 7.0;
+ptr += 4;
+*ptr += 8.0;
+
+
+1. *ptr *= 2; - This will update the value at marks[0][2] since ptr points to the third element of the first row.
+
+2. *ptr += 7.0; - This will update the value at marks[1][3] since ptr is reassigned to point to the fourth element of the second row.
+
+3. *ptr += 8.0; - This will update the value at marks[1][7] since ptr is moved forward by 4 positions and then updated.
+
+So, the elements that will be updated are:
+- marks[0][2]
+- marks[1][3]
+- marks[1][7]
