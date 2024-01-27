@@ -1,0 +1,50 @@
+include<iostream>
+
+#include <iomanip>
+using namespace std;
+int main() {
+    
+    int n;
+    cout << "enter thr number of students" << endl;
+    cin >> n;
+    int x;
+    string studentID[100];
+    double mark[100][3];
+    double avarage[100];
+    string grade[100][3];
+    string id[100];
+ double grade_value[100][3], crdit_hour[3], total_crdith = 0, total, cgpa[100],rgpa[100],box; 
+cout << "whose result do you want to see enter their id ";
+            cin >> id[0];
+            for (int i = 0;i < 3;i++) {
+                if (id[0] == studentID[i]) {
+                    cout << setw(10) << studentID[i] << setw(31) << mark[i][0] << ":" << grade[i][0] << setw(31) << mark[i][1] << ":" << grade[i][1] << setw(31) << mark[i][2] << ":" << grade[i][2] << setw(20) << avarage[i] << setw(25) << cgpa[i] << endl;
+                }
+            }
+            cout << " enter 0 if you want to continue :  ";
+            cin >> x;
+         cout << " Top 5 students are " << endl;
+            for (int i = 0;i < n;i++) {
+                rgpa[i] = cgpa[i];// to copy value of cgpa to another array
+            }
+            for (int i = 0;i < n;i++) {
+                for (int j = i + 1;j < n;j++) {
+
+                    if (rgpa[i] < rgpa[j]) {
+                        box = rgpa[i]; // to swap a value with ascending order
+                        rgpa[i] = rgpa[j];
+                        rgpa[j] = box;
+
+                    }
+                }
+            }
+            for (int j = 0;j < 5;j++) {
+                for (int i = 0;i < n;i++) {
+                   
+                        if (rgpa[j] == cgpa[i]) {
+                            cout << setw(10) << studentID[i] << setw(31) << mark[i][0] << ":" << grade[i][0] << setw(31) << mark[i][1] << ":" << grade[i][1] << setw(31) << mark[i][2] << ":" << grade[i][2] << setw(20) << avarage[i] << setw(25) << cgpa[i] << endl;
+                        }
+                }
+            }
+                          return 0;
+                        }
