@@ -1,1 +1,59 @@
-8
+Pseudo code part I  for project 1
+1. Start
+2. Initialize variables n, total_crdith, total, x
+3. Declare arrays studentID[100], mark[100][3], average[100], grade[100][3], id[100]rgpa[100],box,vgpa[100]; 
+4. Declare arrays grade_value[100][3], credit_hour[3], cgpa[100]
+5. Prompt the user to enter the number of students
+6. Read and store the value of n
+7. declare and initialize i = 0 
+8. Prompt the user to enter the credit hour of course i+1
+9. Read and store credit_hour[i]
+10. Add credit_hour[i] to total_crdith
+11. If i<3 go to step 8
+Else
+12.Initialize i = 0 
+13. Prompt the user to enter the student ID for student i+1
+14. Read and store studentID[i]
+15. Initialize sum to 0
+16. Declare and initialize  j = 0 
+17. Prompt the user to enter the mark of course j+1 for student i+1
+18. Read and store mark[i][j]
+19. Determine grade and grade value based on the mark as follows
+   If (mark[i][j]>=85)
+      grade[i][j]=A
+      grade_value[i][j]=4               
+ else if(mark[i][j]<85&&mark[i][j]>=75)
+    grade[i][j]= B+
+      grade_value[i][j]=3.5
+   else if(mark[i][j]<75&&mark[i][j]>=70)
+      grade[i][j]=B
+      grade_value[i][j]=3
+   else if(mark[i][j]<70&&mark[i][j]>=60)
+      grade[i][j]=c+
+      grade_value[i][j]=2.5
+   else if(mark[i][j]<60&&mark[i][j]>=50)
+      grade[i][j]=C
+      grade_value[i][j]=2
+   else if(mark[i][j]<50&&mark[i][j]>=40)
+      grade[i][j]=D
+      grade_value[i][j]=1.5
+    else
+      grade[i][j]=F
+      grade_value[i][j]=0
+20. Add grade value to sum
+21. If j<3 go to step17
+          Else
+Compute average mark for student i+1 and store it in average[i]
+       Average[i]=sum/3
+23. If i<n go to step13
+Else
+24. Initialize i=0
+25. Initialize total to 0
+26. Initialize j =0
+27. Compute total grade points for student i+1 using grade_value and credit_hour and store it total
+     total=total+(grade_value[i][j]*crdit_hour[j])
+28.j=j+1
+29. If j<3 go to step 27
+30. Compute CGPA for student i+1 using total and total_crdith and store it in cgpa[i]
+      cgpa[i]=total/total_crdith
+      rgpa[i]=cgpa[i]
